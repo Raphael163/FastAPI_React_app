@@ -1,34 +1,42 @@
+.container{
+    display: flex;   
+}
+
 .card {
-    background-color: rgb(204, 228, 220);
-    width: 400px; /* Ширина карточки */
-    height: 300px; /* Высота карточки */
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    width: auto; 
+    height: auto; 
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgb(255, 0, 255);
     transition: box-shadow 0.3s ease;
   
     &:hover {
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-        background-color: rgb(200, 186, 207);
-        border-color: #555; 
+        border-color: #000000; 
     }
   
     .title {
       font-size: 18px;
       font-weight: bold;
-      color: #333;
+      color: #000000;
+      font-weight: bold;
+
     }
   
     .content {
       margin-top: 10px;
-      color: #1d1b1b;
+      color: #000000;
+      font-weight: bold;
     }
   
     .footer {
       margin-top: 20px;
       font-size: 14px;
-      color: #080808;
+      color: #000000;
+      font-weight: bold;
     }
   }
   
